@@ -18,21 +18,19 @@ Ensure you have Python 3.7+ installed, along with the following libraries:
 - `tqdm`
 
 Install the dependencies using:
-```bash
-pip install requests pandas yfinance tqdm
+```pip install requests pandas yfinance tqdm```
 
 Usage
 Download the repository: Clone the repository or download the ZIP file:
 
-bash
-Copy code
-git clone https://github.com/yourusername/nifty-100-stock-fetcher.git
-cd nifty-100-stock-fetcher
+
+```git clone https://github.com/yourusername/nifty-100-stock-fetcher.git```
+```cd nifty-100-stock-fetcher```
+
 Run the script: Execute the script to download and save Nifty 100 stock data:
 
-bash
-Copy code
-python nifty_100_data_fetcher.py
+
+```python nifty_100_data_fetcher.py```
 Folder Structure: The downloaded data will be saved in D:/Quantified Trader/Yfinance Data/Nifty100, organized by:
 
 Year (e.g., 2023)
@@ -46,3 +44,17 @@ Copy code
 ├── nifty_100_data_fetcher.py     # Main script to run the data fetching process
 ├── README.md                     # Project documentation
 └── .gitignore                    # Git ignore file
+
+
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Acknowledgments
+NSE India for providing the list of Nifty 100 stocks.
+Yahoo Finance for providing historical stock data.
+
+
