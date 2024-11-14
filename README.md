@@ -25,25 +25,30 @@ Download the repository: Clone the repository or download the ZIP file:
 
 
 ```git clone https://github.com/yourusername/nifty-100-stock-fetcher.git```
+
 ```cd nifty-100-stock-fetcher```
 
 Run the script: Execute the script to download and save Nifty 100 stock data:
 
 
 ```python nifty_100_data_fetcher.py```
+
 Folder Structure: The downloaded data will be saved in D:/Quantified Trader/Yfinance Data/Nifty100, organized by:
 
+
 Year (e.g., 2023)
+
 Month (e.g., August)
+
 Each stock's data will be saved as a CSV file with the stock symbol as the filename.
 
 Project Structure
-plaintext
-Copy code
-.
+
+```
 ├── nifty_100_data_fetcher.py     # Main script to run the data fetching process
 ├── README.md                     # Project documentation
 └── .gitignore                    # Git ignore file
+```
 
 
 
