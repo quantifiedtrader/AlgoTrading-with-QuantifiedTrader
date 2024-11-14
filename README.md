@@ -52,13 +52,16 @@ Project Structure
 
 
 
-License
+License:
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contributing
+Contributing:
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Acknowledgments
+Acknowledgments:
+
 NSE India for providing the list of Nifty 100 stocks.
 Yahoo Finance for providing historical stock data.
 
